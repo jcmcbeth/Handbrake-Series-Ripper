@@ -1,0 +1,510 @@
+{
+	"title": "Family Guy",
+	"discs": [
+		{
+			"name": "FAMILYGUY_V2_D3",
+			"episodes": [
+				{
+					"title": "Brian Wallows and Peter's Swallows",
+					"season": 3,
+					"episode": 17,	
+					"year": 2002,	
+					"chapters": "1-5",					
+					"disc_title": "1",					
+					"subtitles": "5"
+				},
+				{
+					"title": "From Method to Madness",
+					"season": 3,
+					"episode": 18,	
+					"year": 2002,	
+					"chapters": "1-5",					
+					"disc_title": "2",					
+					"subtitles": "5"
+				}
+			]
+		},
+		{
+			"name": "FAMILYGUY_VOL3_D1",
+			"episodes": [
+				{
+					"title": "North by North Quahog",
+					"season": 4,
+					"episode": 1,	
+					"year": 2005,	
+					"chapters": "1-5",					
+					"disc_title": "1",					
+					"subtitles": "4"
+				},
+				{
+					"title": "Fast Times at Buddy Cianci Jr. High",
+					"season": 4,
+					"episode": 2,	
+					"year": 2005,	
+					"chapters": "1-5",					
+					"disc_title": "2",					
+					"subtitles": "4"
+				},
+				{
+					"title": "Blind Ambition",
+					"season": 4,
+					"episode": 3,	
+					"year": 2005,	
+					"chapters": "1-5",					
+					"disc_title": "3",					
+					"subtitles": "4"
+				},		
+				{
+					"title": "Don't Make Me Over",
+					"season": 4,
+					"episode": 4,	
+					"year": 2005,	
+					"chapters": "1-5",					
+					"disc_title": "4",					
+					"subtitles": "4"
+				}
+			]
+		},
+		{
+			"name": "FAMILYGUY_VOL3_D2",
+			"episodes": [
+				{
+					"title": "The Cleveland–Loretta Quagmire",
+					"season": 4,
+					"episode": 5,	
+					"year": 2005,	
+					"chapters": "1-5",					
+					"disc_title": "1",					
+					"subtitles": "4"
+				},
+				{
+					"title": "Petarded",
+					"season": 4,
+					"episode": 6,	
+					"year": 2005,	
+					"chapters": "1-5",					
+					"disc_title": "2",					
+					"subtitles": "4"
+				},
+				{
+					"title": "Brian the Bachelor",
+					"season": 4,
+					"episode": 7,	
+					"year": 2005,	
+					"chapters": "1-5",					
+					"disc_title": "3",					
+					"subtitles": "4"
+				},		
+				{
+					"title": "8 Simple Rules for Buying My Teenage Daughter",
+					"season": 4,
+					"episode": 8,	
+					"year": 2005,	
+					"chapters": "1-5",					
+					"disc_title": "4",					
+					"subtitles": "4"
+				}
+			]
+		},
+		{
+			"name": "FAMILYGUY_VOL3_D3",
+			"episodes": [
+				{
+					"title": "Breaking Out Is Hard to Do",
+					"season": 4,
+					"episode": 9,	
+					"year": 2005,	
+					"chapters": "1-5",					
+					"disc_title": "1",					
+					"subtitles": "4"
+				},
+				{
+					"title": "Model Misbehavior",
+					"season": 4,
+					"episode": 10,	
+					"year": 2005,	
+					"chapters": "1-5",					
+					"disc_title": "2",					
+					"subtitles": "4"
+				},
+				{
+					"title": "Peter's Got Woods",
+					"season": 4,
+					"episode": 11,	
+					"year": 2005,	
+					"chapters": "1-5",					
+					"disc_title": "3",					
+					"subtitles": "4"
+				},		
+				{
+					"title": "Perfect Castaway",
+					"season": 4,
+					"episode": 12,	
+					"year": 2005,	
+					"chapters": "1-5",					
+					"disc_title": "4",					
+					"subtitles": "4"
+				},
+				{
+					"title": "Jungle Love",
+					"season": 4,
+					"episode": 13,	
+					"year": 2005,	
+					"chapters": "1-5",					
+					"disc_title": "5",					
+					"subtitles": "4"
+				}				
+			]
+		},
+		{
+			"name": "FAMILY_GUY_V4_D1",
+			"episodes": [
+				{
+					"title": "PTV",
+					"season": 4,
+					"episode": 14,	
+					"year": 2005,	
+					"chapters": "1-5",					
+					"disc_title": "1",					
+					"subtitles": "1"
+				},
+				{
+					"title": "Brian Goes Back to College",
+					"season": 4,
+					"episode": 15,	
+					"year": 2005,	
+					"chapters": "1-5",					
+					"disc_title": "2",					
+					"subtitles": "1"
+				},
+				{
+					"title": "The Courtship of Stewie's Father",
+					"season": 4,
+					"episode": 16,	
+					"year": 2005,	
+					"chapters": "1-5",					
+					"disc_title": "3",					
+					"subtitles": "1"
+				},		
+				{
+					"title": "The Fat Guy Strangler",
+					"season": 4,
+					"episode": 17,	
+					"year": 2005,	
+					"chapters": "1-5",					
+					"disc_title": "4",					
+					"subtitles": "1"
+				},
+				{
+					"title": "The Father, the Son, and the Holy Fonz",
+					"season": 4,
+					"episode": 18,	
+					"year": 2005,	
+					"chapters": "1-5",					
+					"disc_title": "5",					
+					"subtitles": "1"
+				}				
+			]
+		},		
+		{
+			"name": "FAMILY_GUY_V4_D2",
+			"episodes": [
+				{
+					"title": "Brian Sings and Swings",
+					"season": 4,
+					"episode": 19,	
+					"year": 2006,	
+					"chapters": "1-5",					
+					"disc_title": "1",					
+					"subtitles": "1"
+				},
+				{
+					"title": "Patriot Games",
+					"season": 4,
+					"episode": 20,	
+					"year": 2006,	
+					"chapters": "1-5",					
+					"disc_title": "2",					
+					"subtitles": "1"
+				},
+				{
+					"title": "I Take Thee Quagmire",
+					"season": 4,
+					"episode": 21,	
+					"year": 2006,	
+					"chapters": "1-5",					
+					"disc_title": "3",					
+					"subtitles": "1"
+				},		
+				{
+					"title": "Sibling Rivalry",
+					"season": 4,
+					"episode": 22,	
+					"year": 2006,	
+					"chapters": "1-5",					
+					"disc_title": "4",					
+					"subtitles": "1"
+				},
+				{
+					"title": "Deep Throats",
+					"season": 4,
+					"episode": 23,	
+					"year": 2006,	
+					"chapters": "1-5",					
+					"disc_title": "5",					
+					"subtitles": "1"
+				}				
+			]
+		},	
+		{
+			"name": "FAMILY_GUY_V4_D3",
+			"episodes": [
+				{
+					"title": "Peterotica",
+					"season": 4,
+					"episode": 24,	
+					"year": 2006,	
+					"chapters": "1-5",					
+					"disc_title": "1",					
+					"subtitles": "1"
+				},
+				{
+					"title": "You May Now Kiss the... Uh... Guy Who Receives",
+					"season": 4,
+					"episode": 25,	
+					"year": 2006,	
+					"chapters": "1-5",					
+					"disc_title": "2",					
+					"subtitles": "1"
+				},
+				{
+					"title": "Petergeist",
+					"season": 4,
+					"episode": 26,	
+					"year": 2006,	
+					"chapters": "1-5",					
+					"disc_title": "3",					
+					"subtitles": "1"
+				},		
+				{
+					"title": "The Griffin Family History",
+					"season": 4,
+					"episode": 27,	
+					"year": 2006,	
+					"chapters": "1-5",					
+					"disc_title": "4",					
+					"subtitles": "1"
+				}			
+			]
+		},		
+		{
+			"name": "FAMILY_GUY_VOLUME_10_DISC_1",
+			"episodes": [
+				{
+					"title": "Halloween on Spooner Street",
+					"season": 9,
+					"episode": 4,	
+					"year": 2010,	
+					"chapters": "1-5",					
+					"disc_title": "1",					
+					"subtitles": "7"
+				},
+				{
+					"title": "Baby, You Knock Me Out",
+					"season": 9,
+					"episode": 5,	
+					"year": 2010,	
+					"chapters": "1-5",					
+					"disc_title": "2",					
+					"subtitles": "7"
+				},
+				{
+					"title": "Brian Writes a Bestseller",
+					"season": 9,
+					"episode": 6,	
+					"year": 2010,	
+					"chapters": "1-5",					
+					"disc_title": "3",					
+					"subtitles": "7"
+				},
+				{
+					"title": "Road to the North Pole",
+					"season": 9,
+					"episode": 7,	
+					"year": 2010,	
+					"chapters": "1-12",					
+					"disc_title": "4",					
+					"subtitles": "7"
+				},
+				{
+					"title": "New Kidney in Town",
+					"season": 9,
+					"episode": 8,	
+					"year": 2011,	
+					"chapters": "1-5",					
+					"disc_title": "5",					
+					"subtitles": "7"
+				}
+			]
+		},
+				{
+			"name": "FAMILY_GUY_VOLUME_10_DISC_2",
+			"episodes": [
+				{
+					"title": "And I'm Joyce Kinney",
+					"season": 9,
+					"episode": 9,	
+					"year": 2011,	
+					"chapters": "1-5",					
+					"disc_title": "1",					
+					"subtitles": "7"
+				},
+				{
+					"title": "Friends of Peter G.",
+					"season": 9,
+					"episode": 10,	
+					"year": 2011,	
+					"chapters": "1-5",					
+					"disc_title": "2",					
+					"subtitles": "7"
+				},
+				{
+					"title": "German Guy",
+					"season": 9,
+					"episode": 11,	
+					"year": 2011,	
+					"chapters": "1-5",					
+					"disc_title": "3",					
+					"subtitles": "7"
+				},
+				{
+					"title": "The Hand That Rocks the Wheelchair",
+					"season": 9,
+					"episode": 12,	
+					"year": 2011,	
+					"chapters": "1-5",					
+					"disc_title": "4",					
+					"subtitles": "7"
+				},
+				{
+					"title": "Trading Places",
+					"season": 9,
+					"episode": 13,	
+					"year": 2011,	
+					"chapters": "1-5",					
+					"disc_title": "5",					
+					"subtitles": "7"
+				}
+			]
+		},
+		{
+			"name": "FAMILY_GUY_VOLUME_10_DISC_3",
+			"episodes": [
+				{
+					"title": "Tiegs for Two",
+					"season": 9,
+					"episode": 14,	
+					"year": 2011,	
+					"chapters": "1-5",					
+					"disc_title": "1",					
+					"subtitles": "1"
+				},
+				{
+					"title": "Brothers & Sisters",
+					"season": 9,
+					"episode": 15,	
+					"year": 2011,	
+					"chapters": "1-5",					
+					"disc_title": "2",					
+					"subtitles": "1"
+				},
+				{
+					"title": "The Big Bang Theory",
+					"season": 9,
+					"episode": 16,	
+					"year": 2011,	
+					"chapters": "1-5",					
+					"disc_title": "3",					
+					"subtitles": "1"
+				},
+				{
+					"title": "Foreign Affairs",
+					"season": 9,
+					"episode": 17,	
+					"year": 2011,	
+					"chapters": "1-5",					
+					"disc_title": "4",					
+					"subtitles": "1"
+				}
+			]
+		},
+		{
+			"name": "FAMILY_GUY_VOLUME_11_DISC_1",
+			"episodes": [
+				{
+					"title": "Lottery Fever",
+					"season": 10,
+					"episode": 1,	
+					"year": 2011,	
+					"chapters": "1-5",					
+					"disc_title": "1",					
+					"subtitles": "1"
+				},
+				{
+					"title": "Seahorse Seashell Party",
+					"season": 10,
+					"episode": 2,	
+					"year": 2011,	
+					"chapters": "1-5",					
+					"disc_title": "2",					
+					"subtitles": "1"
+				},
+				{
+					"title": "Screams of Silence The Story of Brenda Q",
+					"season": 10,
+					"episode": 3,	
+					"year": 2011,	
+					"chapters": "1-5",					
+					"disc_title": "3",					
+					"subtitles": "1"
+				},
+				{
+					"title": "Stewie Goes for a Drive",
+					"season": 10,
+					"episode": 4,	
+					"year": 2011,	
+					"chapters": "1-5",					
+					"disc_title": "4",					
+					"subtitles": "1"
+				},
+				{
+					"title": "Back to the Pilot",
+					"season": 10,
+					"episode": 5,	
+					"year": 2011,	
+					"chapters": "1-5",					
+					"disc_title": "4",					
+					"subtitles": "1"
+				},
+				{
+					"title": "Thanksgiving",
+					"season": 10,
+					"episode": 6,	
+					"year": 2011,	
+					"chapters": "1-5",					
+					"disc_title": "4",					
+					"subtitles": "1"
+				},
+				{
+					"title": "Amish Guy",
+					"season": 10,
+					"episode": 7,	
+					"year": 2011,	
+					"chapters": "1-5",					
+					"disc_title": "4",					
+					"subtitles": "1"
+				}
+			]
+		}
+	]
+}

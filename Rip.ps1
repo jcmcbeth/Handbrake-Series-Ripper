@@ -10,23 +10,41 @@ param(
 #Write-Output $DestinationPath;
 #Write-Output $env:HandbrakeCliPath
 
-$media = Get-Content -Raw -Path $DefinitionFileName | ConvertFrom-Json;
+# Without the encoding, Pokémon and such is messed up.
+$media = Get-Content -Raw -Path $DefinitionFileName -Encoding UTF8 | ConvertFrom-Json;
 $diskName = Get-CimInstance Win32_LogicalDisk | ?{ $_.DeviceID -eq $Source } | Select-Object -ExpandProperty VolumeName;
 
+# TODO Verify this shows error when no disk drive
+if ($diskName -eq "" -or $diskName -eq $null) {
+    throw "Did not found source disk '$Source'.";
+}
+
 $disc = $media.discs | Where { $_.name -eq $diskName };
+
+if ($disc -eq $null) {
+    throw "Did not find '$diskName' on source '$Source'.";
+}
+
+if ([System.String]::IsNullOrWhiteSpace($HandbrakePath)) {
+    throw "Handbrake path was not set.";
+}
+
+if ((Test-Path $HandbrakePath) -eq $false) {
+    throw "Handbrake was not found at '$HandbrakePath'.";
+}
 
 $episodeNumber = 1;
 $activity = "Ripping DVD";
 foreach ($episode in $disc.episodes) {
-    $childActivity = "$($media.title) - S$($episode.season)E$($episode.episode) - $($episode.title)";
+    $childActivity = "$($media.title) - S$($episode.season.ToString("00"))E$($episode.episode.ToString("00")) - $($episode.title)";
     
     $totalPercent = [int]((($episodeNumber - 1)/[double]$disc.episodes.Count) * 100);
     $episodeNumber = $episodeNumber + 1;
 
     Write-Progress -Id 1 -Activity $activity -PercentComplete $totalPercent;
 
-    $fileName = "$($media.title) - S$($episode.season)E$($episode.episode) - $($episode.title) ($($episode.year)).mp4";
-    $path = Join-Path $DestinationPath "\$($media.title)\Season $($episode.season)\";
+    $fileName = "$($media.title) - S$($episode.season.ToString("00"))E$($episode.episode.ToString("00")) - $($episode.title) ($($episode.year)).mp4";
+    $path = Join-Path $DestinationPath "\$($media.title)\Season $($episode.season.ToString("00"))\";
 
     if (-not (Test-Path $path)) {
         New-Item -ItemType Directory $path | Out-Null;
